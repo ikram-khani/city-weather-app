@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ikram-khani.github.io/city-weather-app",
   "name": "city-weather-app",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +41,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://ikram-khani.github.io/city-weather-app"
+  }
 }
