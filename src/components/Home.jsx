@@ -72,10 +72,10 @@ const Home = () => {
         <p className="text-red-500">{error}</p>
       ) : (
         weather.main && (
-          <div className="text-left p-12 rounded">
+          <div className="text-left p-12 rounded container mx-auto pt-8 text-center">
             <h2 className="text-2xl font-bold pb-2 pl-5">{weather.name}</h2>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
+            <div className="flex flex-col sm:flex-row items-center justify-around sm:justify-between">
+              <div className="flex items-center mb-4 sm:mb-0">
                 <img
                   src={TemperatureIcon}
                   
@@ -83,7 +83,7 @@ const Home = () => {
                 />
                 <p>Temperature: {Math.floor(weather.main.temp - 273.15)}°C</p>
               </div>
-              <div className="flex items-center justify-center pb-4">
+              <div className="flex items-center mb-4 sm:mb-0">
                 <img
                   src={WeatherIcon}
                   
@@ -92,7 +92,7 @@ const Home = () => {
                 <p className="text-lg">{weather.weather[0].description}</p>
               </div>
 
-              <div className="flex items-center">
+              <div className="flex items-center mb-4 sm:mb-0">
                 <img
                   src={HumidityIcon}
                   
