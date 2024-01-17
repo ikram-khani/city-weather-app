@@ -73,7 +73,7 @@ const Home = () => {
       ) : (
         weather.main && (
           <div className="text-left p-12 rounded container mx-auto pt-8 text-center">
-            <h2 className="text-2xl font-bold pb-2 pl-5">{weather.name}</h2>
+            <h2 className="text-2xl font-bold pb-10 ml-8, text-left">{weather.name}</h2>
             <div className="flex flex-col sm:flex-row items-center justify-around sm:justify-between">
               <div className="flex items-center mb-4 sm:mb-0">
                 <img
