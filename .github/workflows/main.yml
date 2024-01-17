@@ -33,5 +33,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          branch: master  # Change this to your deployment branch name
+          branch: main  # Change this to your deployment branch name
           folder: build
