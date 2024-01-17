@@ -4,6 +4,7 @@ import axios from "axios";
 const openWeatherApiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
 
+
 const Home = () => {
   const [weather, setWeather] = useState({});
   const [selectedCity, setSelectedCity] = useState("peshawar");
@@ -72,7 +73,7 @@ const Home = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center">
                 <img
-                  src="/temperature-icon.png"
+                  src="temperature-icon.png"
                   alt="Temperature Icon"
                   className="w-10 h-10 mr-2"
                 />
@@ -80,7 +81,7 @@ const Home = () => {
               </div>
               <div className="flex items-center justify-center pb-4">
                 <img
-                  src="weather-icon.png"
+                  src="/weather-icon.png"
                   alt="Weather Icon"
                   className="mr-2 w-10 h-10 "
                 />
