@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/city-weather-app/static/css/main.2ad8f407.css",
-    "main.js": "/city-weather-app/static/js/main.dff267eb.js",
+    "main.js": "/city-weather-app/static/js/main.c9aa5b6f.js",
     "static/js/787.d579852d.chunk.js": "/city-weather-app/static/js/787.d579852d.chunk.js",
+    "static/media/wind-speed-icon.png": "/city-weather-app/static/media/wind-speed-icon.02849238ac35c9880cfe.png",
+    "static/media/weather-background.jpg": "/city-weather-app/static/media/weather-background.fd3a0aee16ecc9ce13c6.jpg",
+    "static/media/humidity-icon.png": "/city-weather-app/static/media/humidity-icon.c4afbf27395eb3c479e9.png",
+    "static/media/temperature-icon.png": "/city-weather-app/static/media/temperature-icon.033aa1d011b0bd74d75f.png",
+    "static/media/weather-icon.png": "/city-weather-app/static/media/weather-icon.1eada1bcd33a7128e195.png",
     "index.html": "/city-weather-app/index.html",
     "main.2ad8f407.css.map": "/city-weather-app/static/css/main.2ad8f407.css.map",
-    "main.dff267eb.js.map": "/city-weather-app/static/js/main.dff267eb.js.map",
+    "main.c9aa5b6f.js.map": "/city-weather-app/static/js/main.c9aa5b6f.js.map",
     "787.d579852d.chunk.js.map": "/city-weather-app/static/js/787.d579852d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ad8f407.css",
-    "static/js/main.dff267eb.js"
+    "static/js/main.c9aa5b6f.js"
   ]
 }
