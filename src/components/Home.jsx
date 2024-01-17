@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import TemperatureIcon from "../assets/temperature-icon.png";
+import HumidityIcon from "../assets/humidity-icon.png";
+import WeatherIcon from "../assets/weather-icon.png";
+import WindSpeedIcon from "../assets/wind-speed-icon.png";
 
 const openWeatherApiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
@@ -73,16 +77,16 @@ const Home = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center">
                 <img
-                  src="temperature-icon.png"
-                  alt="Temperature Icon"
+                  src={TemperatureIcon}
+                  
                   className="w-10 h-10 mr-2"
                 />
                 <p>Temperature: {Math.floor(weather.main.temp - 273.15)}°C</p>
               </div>
               <div className="flex items-center justify-center pb-4">
                 <img
-                  src="/weather-icon.png"
-                  alt="Weather Icon"
+                  src={WeatherIcon}
+                  
                   className="mr-2 w-10 h-10 "
                 />
                 <p className="text-lg">{weather.weather[0].description}</p>
@@ -90,16 +94,16 @@ const Home = () => {
 
               <div className="flex items-center">
                 <img
-                  src="/humidity-icon.png"
-                  alt="Humidity Icon"
+                  src={HumidityIcon}
+                  
                   className="w-10 h-10 mr-2"
                 />
                 <p>Humidity: {weather.main.humidity}%</p>
               </div>
               <div className="flex items-center">
                 <img
-                  src="/wind-speed-icon.png"
-                  alt="Wind Speed Icon"
+                  src={WindSpeedIcon}
+                  
                   className="w-10 h-10 mr-2"
                 />
                 <p>Wind Speed: {weather.wind.speed} m/s</p>
@@ -108,6 +112,8 @@ const Home = () => {
           </div>
         )
       )}
+      
+      
     </div>
   );
 };
